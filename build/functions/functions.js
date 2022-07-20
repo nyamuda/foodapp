@@ -33,11 +33,11 @@ export function buildRecipeCard(name, time, servings, img, id) {
        </h1>
        <div class="card-bottom">
            <div class="block-row-col">
-               <div class="time"><img class="card-icon" src="/images/schedule_FILL1_wght400_GRAD0_opsz48.png" alt="time" width="20px">
+               <div class="time"><img class="card-icon" src="../images/schedule_FILL1_wght400_GRAD0_opsz48.png" alt="time" width="20px">
                    <p><span class="accent-text">${time}</span>Mins</p>
 
                </div>
-               <div class="serves"><img class="card-icon" src="/images/people.png" alt="people" width="20px">
+               <div class="serves"><img class="card-icon" src="../images/people.png" alt="people" width="20px">
                    <p><span class="accent-text">${servings}</span>Serving</p>
                </div>
            </div>
