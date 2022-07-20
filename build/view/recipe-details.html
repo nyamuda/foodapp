@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/recipe-details.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="app-name">Ingredient Recipes</h1>
+    </header>
+    <main>
+        <div class="card">
+            <section class="card-head">
+                <div class="card-img-container">
+
+                    <div id="card-img" class="card-img">
+                        <a id="heart-parent" class="heart-container heart-link" href="#"><svg id="heart-icon" class="heart" fill="" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m24 41.95-2.05-1.85q-5.3-4.85-8.75-8.375-3.45-3.525-5.5-6.3T4.825 20.4Q4 18.15 4 15.85q0-4.5 3.025-7.525Q10.05 5.3 14.5 5.3q2.85 0 5.275 1.35Q22.2 8 24 10.55q2.1-2.7 4.45-3.975T33.5 5.3q4.45 0 7.475 3.025Q44 11.35 44 15.85q0 2.3-.825 4.55T40.3 25.425q-2.05 2.775-5.5 6.3T26.05 40.1Z"/></svg></a>
+                    </div>
+                </div>
+                <div class="text">
+                    <h1 id="recipe-name" class="food-name">
+
+                    </h1>
+                    <div class="card-bottom">
+                        <div class="block-row-col">
+                            <div class="time"><img class="card-icon" src="/images/schedule_FILL1_wght400_GRAD0_opsz48.png" alt="time" width="30px">
+                                <p><span id="time-recipe" class="accent-text"></span>Mins</p>
+
+                            </div>
+                            <div class="serves"><img class="card-icon" src="/images/people.png" alt="people" width="30px">
+                                <p><span id="servings-recipe" class="accent-text"></span>Serving</p>
+                            </div>
+                        </div>
+
+                        <div class="recipe-author">
+                            <p id="author-recipe"></p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="ingredients-instructions">
+                <div class="ingredients-detail">
+                    <h2>Ingredients</h2>
+                    <ul id="ingredients-container" class="ingredients-list">
+                        <li>
+                            <input type="checkbox" id="ing-1" />
+                            <label for="ing-1">8 oz. spaghetti or linguine pasta</label>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="instructions-detail">
+                    <h2>Preparation Method</h2>
+                    <ol type="1" id="instructions-container" class="instructions-list">
+
+                    </ol>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+
+        <p class="footer-item">&copy; Ingredient Recipes. All rights reserved.</p>
+        <p class="footer-item">All images used are believed to be in "Fair Use". Please notify the author if any are not and they will be removed.</p>
+    </footer>
+
+    <script type="module" src="../controller/recipe-details-controller.js"></script>
+</body>
+
+</html>
